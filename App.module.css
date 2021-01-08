@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+.Header {
+  border: 3px solid #252525;
+  border-radius: 15px;
+  width: 50%;
+  margin: 10px auto;
+  background: linear-gradient(90deg,#817955,#4CD7D0);
+}

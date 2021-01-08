@@ -1,0 +1,62 @@
+.Repos {
+    margin: 20px auto;
+    height: 150px;
+    width: 70%;
+    background: linear-gradient(90deg,#189AB4,#81B622);
+    align-content: center;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px #252525;
+    justify-content: space-around;
+}
+@media(max-width: 577px){
+    .Repos {
+        width: 300px;
+    }
+    .Avatar {
+        display: none;
+    }
+}
+.Avatar {
+    background-color: orange;
+    height: 80%;
+    width: 150px;
+    margin: 15px 0px 0px 10px;
+    background-image: url('https://avatars1.githubusercontent.com/u/7189743?v=4');
+    background-size: 100%;
+}
+.Infos {
+    margin-right: 25%;
+    width: 60%;
+    height: 100%;
+}
+.Infos .Name {
+    text-align: left;
+    width: 100%;
+    margin: 5px;
+    height: 20%;
+    overflow-y: auto;
+}
+.Infos .Desc {
+    text-align: left;
+    margin: 5px;
+    height: 40%;
+    overflow-y: auto;
+}
+.Rating {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    max-height: 40px;
+}
+.Rating .Stars, .Issues, .Time {
+    padding: 3px 10px;
+}
+.Rating .Stars, .Issues {
+    border: 2px solid #252525;
+    border-radius: 10px;
+}
+.Rating .Time {
+    overflow-y: auto;
+}
